@@ -30,7 +30,7 @@ def InImgs(n1,n2,n3):
     return output,l
 
 
-def shishi(k_imgs, target):
+def PPR(k_imgs, target):
     f = os.listdir("./imgs")
     ui = 0
     for j in f:
@@ -151,7 +151,7 @@ if __name__ == "__main__":
 
     target = img_list
 
-    target_after = shishi(k_img, target)
+    target_after = PPR(k_img, target)
 
     out = most_K(target_after, l, K)
 
