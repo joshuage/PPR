@@ -1,3 +1,8 @@
+/*
+this algorithm needs user select 3 imgs as target, the most K similar imgs and k connection
+K represent the output of the most K similiar imgs
+k_imgs represent the k connected imgs to the user pick target
+*/
 import os
 import matplotlib.pyplot as plt
 import numpy as np
